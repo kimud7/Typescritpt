@@ -1,0 +1,9 @@
+//introduction 에서 보았듯이 컴파일 할떄마다 옵션을 건드리는 작업은 매우 불편하다.
+//그래서 사용하는것이 tsconfig.json이다
+{
+    "compilerOptions": {
+        "target": "ES3",
+        "module": "commonjs",
+        "sourceMap": true,
+    }
+}
